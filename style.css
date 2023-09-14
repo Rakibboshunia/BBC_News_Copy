@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.p{
+    font-size: 25px;
+}
+
+/*Dey-night news*/
+.heading{
+    font-size: 25px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+.navber ul{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    list-style: none;
+    margin: 10px 0px;
+
+}
+.navber ul li{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navber ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+}
+.navber ul li a:hover{
+    border-color: rgb(0, 0, 0);
+    color: rgb(2, 2, 2);
+    box-shadow: 0 0 10px rgb(184, 27, 27);
+}
+
+/*News*/
+.heading2{
+    font-size: 20px;
+    background: #950505;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.navber2 ul{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    list-style: none;
+    margin: 10px 0px;
+}
+.navber2 ul li{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navber2 ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+.navber2 ul li a:hover{
+    border-color: aliceblue;
+    color: rgb(245, 249, 250);
+    box-shadow: 0 0 10px rgb(7, 42, 39);
+}
+
+
+/*World news*/
+.n{
+    
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+.news{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+}
+.news img{
+    width: 100%;
+    height: auto;
+}
+.news img:hover{
+    border-color: rgb(205, 34, 15);
+    border-radius: 1.1rem;
+    box-shadow: 0 0 50px rgb(240, 3, 3);
+}
+
+/*Asia news*/
+.a{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+.asia{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+}
+.asia img{
+    width: 100%;
+    height: auto;
+}
+.asia img:hover{
+    border-color: rgb(205, 34, 15);
+    border-radius: 1.1rem;
+    box-shadow: 0 0 50px rgb(240, 3, 3);
+}
+
+/*Must see*/
+.must{
+    padding: 20px;
+    font-size: 40px;
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+}
+.img img{
+    width: 100%;
+    height: auto;
+ }
+ .img img:hover{
+    border-color: rgb(205, 34, 15);
+    border-radius: 1.1rem;
+    box-shadow: 0 0 50px rgb(240, 3, 3);
+}
+
+
+ /*Most watched*/
+ #most{
+    display: flex;
+    font-size: 30px;
+    padding: 30px;
+ }
+ .most{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+ }
+ .list ul li{
+    list-style: none;
+    padding: 30px;
+    margin: 10px 20px;
+    text-transform: capitalize; 
+ }
+
+ /*Full story*/
+
+.full{
+    text-align: left;
+    padding: 20px;
+    font-size: 40px;
+}
+.story{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+}
+.img1{
+    display: flex;
+    width: 700px;
+    height: 400px;
+}
+.story img{
+    width: 100%;
+    height: auto;
+ }
+ .story img:hover{
+    border-color: rgb(205, 34, 15);
+    border-radius: 1.1rem;
+    box-shadow: 0 0 50px rgb(240, 3, 3);
+}
+
+
+ /*World picture*/
+.pic{
+    font-size: 40px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+.world{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+}
+.world img{
+    width: 100%;
+    height: auto;
+}
+.world img:hover{
+    border-color: rgb(205, 34, 15);
+    border-radius: 1.1rem;
+    box-shadow: 0 0 50px rgb(240, 3, 3);
+}
+
+/*Step--6*/
+#language{
+    display: flex;
+    flex-direction: column;
+    color: rgb(8, 134, 124);
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+}
+.dn{
+    font-size: 30px;
+    color: rgb(8, 134, 124);
+}
+h3{
+    padding: 10px;
+}
+p{
+    padding: 20px;
+}
+.language{
+    font-family: century;
+    font-size: 20px;
+}
+.language h2{
+    padding: 20px;
+}
+.language ul li{
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    display: inline;
+
+}
